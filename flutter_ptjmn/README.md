@@ -1,16 +1,43 @@
-# flutter_ptjmn
+# Instrucciones para ejecutar la aplicación
 
-A new Flutter project.
+1. **Instala Flutter**  
+    Descarga e instala Flutter desde [flutter.dev](https://flutter.dev/docs/get-started/install).
 
-## Getting Started
+2. **Clona el repositorio**  
+    ```bash
+    git clone <https://github.com/JonathanMN145/PruebaFlutterJMN.git>
+    cd flutter_ptjmn
+    ```
 
-This project is a starting point for a Flutter application.
+3. **Instala dependencias**  
+    Ejecuta: 
+    ```bash
+    flutter pub get
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+4. **Ejecuta la aplicación**  
+    Conecta un dispositivo o inicia un emulador, luego ejecuta:
+    ```bash
+    flutter run
+    ```
+    Igual lo puede depurar tanto como emulador o web
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Proceso de desarrollo
+
+- Utilicé la libreria de Rick and Morty por su facilidad.
+- La estructura sigue el patrón estándar de Flutter: separación en carpetas `lib`, `assets`, y `test`.
+- Para la gestión de estado, elegí **Provider** por su simplicidad y escalabilidad.
+- Se priorizó la legibilidad del código y la modularidad de los componentes.
+
+---
+
+## Decisiones técnicas
+
+- **Provider** para el estado global.
+- **Material Design** para la interfaz.
+- Organización en widgets reutilizables.
+- Uso de rutas nombradas para la navegación.
+
+---
